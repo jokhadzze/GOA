@@ -1,0 +1,11 @@
+print(4>8 or 9>0)
+print(7>9 or 1<4)
+print(8>7 or 9>1)
+print(4<3 or 7>6)
+print(1>6 or 2<6)
+
+print(23>12 and 99<78)
+print(78>19 and 98<18)
+print(87<21 and 99<78)
+print(21>32 and 456>8908)
+print(2343>12 and 90<8)
