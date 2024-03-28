@@ -18,5 +18,6 @@ i = 0
 while i <= 5:
     result = result + i
     i = i + 1
-    
     print(result) 
+
+
