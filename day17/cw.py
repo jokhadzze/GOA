@@ -1,12 +1,12 @@
-# my_list = ["I", "hate", "cardio"]
-# my_new_list = "".join(my_list)
-# print(my_new_list)
+my_list = ["I", "hate", "cardio"]
+my_new_list = "".join(my_list)
+print(my_new_list)
 
 
-# def func(my_list):
-#     my_new_list = "".join(my_list)
-#     return my_new_list
-# print(func(["I", "hate", "cardio"]))
+def func(my_list):
+    my_new_list = "".join(my_list)
+    return my_new_list
+print(func(["I", "hate", "cardio"]))
 
 # გატესტეთ, გამოიყენეთ დღეს ნასწავლი ფუნქციები და კომენტარად მიუწერეთ ყველას, თუ რას აკეთებს
 
@@ -24,4 +24,4 @@ print(idk.upper())
 
 kk = "go to the gym"
 print(kk.capitalize())
-# capitalize() ფუნქციას სტრინგის ცალკეული სიტყვების პირველი სიმბოლოები აფერ ქეისში გადააქვს
+# capitalize() ფუნქციას სტრინგის პირველი სიმბოლო აფერ ქეისში გადააქვს

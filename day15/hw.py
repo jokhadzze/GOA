@@ -1,140 +1,97 @@
-# შექმენით ფუნქცია, რომელსაც გადასცემთ თქვენ სახელს და გვარს. გამოიყენეთ split, 
-# indexing და დაბეჭდეთ თქვენი ინიციალები. test case: input) David Tezelashvili -> output) D.T
+# # 1
 
-# name = "nina jokhadze"
-# x = name.split()
-# for i in x:
-#     print(i[0])
+def greet_user(name):
+    print("hello", name)
+
+greet_user("nina")
+
+greet_user("deme")
+
+# 2
+
+def add(amount, count):
+    print(amount + count)
+
+add(5, 10)
+add(17, 90)
+
+# 3
+
+def multiply(price, amount):
+    print(price * amount)
+
+multiply(20, 3)
+multiply(12, 2)
 
 
-def initial_chars(fullname):
-    splited_fullname = fullname.split(" ")
-    
-    firstname = splited_fullname[0]
-    lastname = splited_fullname[1]
-    
-    result = firstname[0] + "." + lastname[0]
-    
-    print(result)
-   
+# დავალება: შექმენით ოთხი მათემატიკური ფუნქცია, თითოეულს გადაეცით ორი არგუმენტი და 
+# სახელის შესაბამისად მოახდინეთ მუშაობა. ოპერაციები: +, -, *, /
 
-initial_chars("Luka Tskhvaradze")
+def multiply(num1, num2):
+    print(num1 * num2)
 
-# შექმენით ფუნქცია, რომელსაც გადასცემთ სიას. თქვენი დავალებაა, რომ დაბეჭდოთ ამ სიის საშუალო არითმეტიკული (ჯამი / სიგრძე)
+multiply(19, 23)
 
-arr = [6, 8, 10, 12]
+def sum(number1, number2):
+    print(number1 + number2)
 
-def Arithmetic_average(num1, num2):
+sum(3, 12)
+def devide(num1, num2):
     print(num1 / num2)
 
-Arithmetic_average(sum(arr), len(arr))
+devide(165, 10)
 
+def deduction(num1, num2):
+    print(num1 - num2)
 
-def average_arithmetic(number_list):
-    jami = sum(number_list)
-    result = jami // len(number_list)
-    print(result)
+deduction(33, 7)
 
-average_arithmetic([1,2,3])
+# დავალება2: შექმენით ფუნქცია, რომელსაც გადასცემთ მართკუთხედის სიგრძესა და სიმაღლეს, გამოითვლით მის ფართობს
 
-# შექმენით ფუნქცია, რომელსაც გადასცემთ სიტყვას და შემოწმდება არისთუ 
-# არა ის პალინდრომი (პალინდრომია სიტყვა, თუ მისი შებრუნებულიც იგივე გამოდის, მაგ: level)
+def area_of_a_rectangle(length, width):
+    print(length * width)
 
-x = "level"
+area_of_a_rectangle(12, 5)
 
-def checking_palindromity_of_a_word():
-    print(bool)
+# დავალება3: შექმენით ფუნქცია, რომელსაც გადასცემთ მართკუთხედის ოთხ გვერდს, გამოითვლით მის პერიმეტრს
 
-if x == x[::-1]:
-    print("True")
-else:
-    print("False")
+def perimetr_of_a_rectangle(length, width):
+    print((length + width) * 2)
 
+perimetr_of_a_rectangle(16, 13)
 
+# დავალება4: შექმენით ფუნქცია, რომელიც მიიღებს არგუმენტად სიას და დაბეჭდეთ სიის რიცხვების ჯამი, არ გამოიყენოთ sum
 
-def is_palindrom(word):
-    reversed_word = ''
+def calculate_sum(lst):
+    total = 0
+    for num in lst:
+        total += num
+    print("The sum of the numbers in the list is:", total)
+my_list = [1, 2, 3, 4, 5]
+calculate_sum(my_list)
     
-    for i in range(len(word) - 1, -1, -1):
-        reversed_word = reversed_word + word[i]
+
+#  შექმენით ფუნქცია, რომელიც დაბეჭდავს კონკრეტული სიიდან მინიმალურ და 
+# მაქსიმალურ რიცხვებს, არ გამოიყენოთ min და max. გამოიყენეთ def, for, if/else, indexing, print
+
+
+def min_max ( arr ):
+    a = arr[0]
+    for i in arr:
+        if i < a:
+            a = i
+
     
-    print(reversed_word == word)
-
-
-is_palindrom("ana")
-
-
-# შექმენით ფუნქცია, რომელსაც გადასცემთ სთრინგს. თქვენი დავალებაა, რომ ამ სთრინგს მოაშოროთ
-# ყველა სფეისი - space და დაბეჭდოთ ამ სახით test case: input) "     Goal-   Oriented   Academy    "
-# -> output) "Goal-OrientedAcademy"
-
-txt = "nina hates cardio"
-i = txt.replace(" ", "")
-print(i)
-
-
-def remove_spaces(word):
-    word_without_space = ''
-    
-    for char in word:
-        if char != " ":
-            word_without_space = word_without_space + char
-    
-    print(word_without_space)
-
-remove_spaces("Luka Tskhvaradze")
-
-
-# შექმენით ფუნქცია, რომელსაც გადასცემთ სიას. ამ სიაში უნდა გქონდეთ როგორც დადებითი, ასევე უარყოფითი რიცხვები.
-#  თქვენი დავალებაა, რომ გამოიტანოთ უარყოფითი რიცხვების რაოდენობა და დადებითი რიცხვების ჯამი (გამოიყენეთ for ციკლი ორივეზე)
-
-
-def rkina( arr ):
-
-    neg_num = 0
-    non_neg_num = 0
-    new_arr = []
-    for el in arr:
-        if el <= -1:
-            neg_num += 1
-        
-        
-        else:
+    y = arr[0]
+    for x in arr:
+        if x > y:
+            y = x
             
-            non_neg_num += el
-    print(neg_num, non_neg_num)
+             
+        
+    print(a, y)
 
-rkina( [1,3,4,5,5,6,-1,-2,-3,-4,-5,-6] )
+min_max ([1,3,4,5,-6,5,6,1,-2,-3,-4,-5])
 
 
-
-def func(number_list):
-    sum = 0
-    quantity = 0
     
-    for num in number_list:
-        if num >= 0:
-            sum = sum + num
-        else:
-            quantity = quantity + 1
-    
-    print(sum,quantity)
-
-func([1,2,3,-1,-2,-3])
-
-
-
-
-
-def my_replace(word,char1,char2):
-    replaced_word = ''
-    
-    for i in word:
-        if i == char1:
-            replaced_word = replaced_word + char2 
-        else:
-            replaced_word = replaced_word + i
-    
-    print(replaced_word)
-
-my_replace("Luka Tskhvaradze", "k", "i")
