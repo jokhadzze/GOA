@@ -24,3 +24,17 @@ def manual_counter(arr, item):
     return counter
 print(manual_counter(["nina", "deme", "deme", "deme", "nina"], "deme"))
 
+
+# Bonus: შექმენით ფუნქცია სახელად manual index, რომელსაც გადაეცემა სია და ერთი მნიშვნელობა. როდესაც გაიგებთ ამ ელემენტის ინდექსს,
+#  დააბრუნეთ ის. გამოიყენეთ for ციკლი, არ გამოიყენოთ .index. 
+
+def manual_index(collection, value):
+
+    for index in range(0, len(collection)):
+        if collection[index] == value:
+            return index
+    
+    return -1
+
+
+print(manual_index("Luka", "k"))
