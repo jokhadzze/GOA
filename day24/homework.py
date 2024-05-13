@@ -1,55 +1,65 @@
-# def litres(time):
-#     return time // 2
+def litres(time):
+    return time // 2
 
 
 
-# def paperwork(n, m):
-#     # Happy Coding! ^_^
-#     if m < 0 or n < 0:
-#         return 0
+def paperwork(n, m):
+    # Happy Coding! ^_^
+    if m < 0 or n < 0:
+        return 0
     
-#     else:
-#         return m * n
-    
-
-
-# def grow(arr):
-#     result = 1
-#     for i in arr:
-#         result = result * i
-#     return result
+    else:
+        return m * n
     
 
 
-# def fake_bin(x):
-#     result = ""
+def grow(arr):
+    result = 1
+    for i in arr:
+        result = result * i
+    return result
     
-#     for i in x:
-#         if int(i) < 5:
-#             result += "0"
-#         else:
-#             result +="1"
+
+
+def fake_bin(x):
+    result = ""
     
-#     return result
+    for i in x:
+        if int(i) < 5:
+            result += "0"
+        else:
+            result +="1"
+    
+    return result
 
 
 
 
-# def to_jaden_case(string):
-#     return string.title()
-# Passed: 118  Failed: 6
+def to_jaden_case(string):
+    listn = string.split()
+    new_list = []
+    result = []
+    for i in listn:
+        capitalized = i.capitalize()
+        result.append(capitalized)
+    return " ".join(result)
 
 
 
 
 
-# def remove_smallest(numbers):
-#     nums=[]
-#     for i in numbers:
-#         if a < i:
-#             a = i
-#     numbers.pop(a)
-#     return numbers
+
+
+def remove_smallest(numbers):
+    if numbers == []:
+        return [] 
+    else:
+        min_num = min(numbers)
+        index = numbers.index(min_num)
+
+        first = numbers[:index]
+        second = numbers[index + 1:]
+    return first + second
 
 
 
@@ -74,16 +84,28 @@
 # accum("RqaEzty") -> "R-Qq-Aaa-Eeee-Zzzzz-Tttttt-Yyyyyyy"
 # accum("cwAt") -> "C-Ww-Aaa-Tttt"
 
+def accum(st):
+    listn = []
+    for i in range(1, len(st) + 1):
+        listn.append((st[i - 1]* i).capitalize())
+    return "-".join(listn)
 
 
 
 
 
-# []                                -->  "no one likes this"
-# ["Peter"]                         -->  "Peter likes this"
-# ["Jacob", "Alex"]                 -->  "Jacob and Alex like this"
-# ["Max", "John", "Mark"]           -->  "Max, John and Mark like this"
-# ["Alex", "Jacob", "Mark", "Max"]  -->  "Alex, Jacob and 2 others like this"
+
+def likes(names):
+    if len(names) == 0:
+        return("no one likes this")
+    elif len(names) == 1:
+        return(f"{names[0]} likes this")
+    elif len(names) == 2:
+        return(f"{names[0]} and {names[1]} like this")
+    elif len(names) == 3:
+        return(f"{names[0]}, {names[1]} and {names[2]} like this")
+    else:
+        return(f"{names[0]}, {names[1]} and {len(names)-2} others like this")
 
 
 
@@ -95,12 +117,12 @@
 # თქვენი დავალებაა, რომ ამ სიაში მოცემული მთელი რიცხვების ჯამი დაბეჭდოთ ტერმინალში.
 # 1. [1, 2, 3, True, False, 1.5, 3.14, 5, "Hello"] -> 11
 
-# random = [1, 2, 3, True, False, 1.5, 3.14, 5, "Hello"]
-# result = []
-# for i in random:
-#     if type(i) == int:
-#         result+=i
-# print(result)
+random = [1, 2, 3, True, False, 1.5, 3.14, 5, "Hello"]
+result = []
+for i in random:
+    if type(i) == int:
+        result+=i
+print(result)
 
 
 
@@ -120,16 +142,17 @@
 #         a = i
 #     nums.pop(a)
 # result = sum(nums)
+# print(result)
 
 
 
 # 3. მომხმარებელს შემოატანინეთ დადებითი მთელი რიცხვი. შემდეგ გამოიყენეთ ციკლი, სიაში დაამატეთ ყველა ამ რიცხვის გამყოფი და დაბეჭდეთ ეს სია.
 # 3. 10 - [1, 2, 5, 10]
 
-# num = int(input("enter a positive integer: "))
-# for i in range(1, num+1):
-#     if num % i == 0:
-#         print(i)
+num = int(input("enter a positive integer: "))
+for i in range(1, num+1):
+    if num % i == 0:
+        print(i)
 
 
 
@@ -138,13 +161,13 @@
 # lowercase გადააკეთეთ uppercase-ად, ხოლო uppercase კი lowercase-ად.
 # "HeLLo WORld" -> "hEllO worLD
 
-# sentence = input("enter smth: ")
-# for i in sentence:
-#     if i.isupper():
-#         i.lower()
-#     else:
-#         i.upper()
-# print(sentence)
+sentence = input("enter smth: ")
+for i in sentence:
+    if i.isupper():
+        i.lower()
+    else:
+        i.upper()
+print(sentence)
 
 
 
