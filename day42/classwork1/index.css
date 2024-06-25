@@ -1,0 +1,51 @@
+input{
+    height: 30px;
+    width: 250px;
+    border: 1px solid lightblue;
+    border-radius: 20%;
+    background-color: lightblue;
+}
+
+.whole{
+    border: 1px dashed black;
+}
+
+.forgot-password{
+    margin-left: 110px;
+    color: blue;
+}
+
+.forgot-password:hover{
+    color: pink;
+}
+
+.button{
+    height: 30px;
+    width: 250px;
+    background-color: blue;
+    color: white;
+}
+
+button:hover{
+    color: blue;
+    background-color: antiquewhite;
+}
+
+.button:active{
+    background-color: bisque;
+    color: cadetblue;
+}
+
+h1{
+    margin-left: 80px;
+}
+
+.no-acc{
+    margin-left: 55px;
+    color: blue;
+}
+
+.no-acc:hover{
+    color: pink;
+}
+

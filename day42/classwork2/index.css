@@ -1,0 +1,52 @@
+.home{
+    color:black;
+}
+
+.home:hover{
+    color: crimson;
+}
+
+
+
+.abus{
+    color:black;
+}
+
+.abus:hover{
+    color: crimson;
+}
+
+
+
+.wrk{
+    color:black;
+}
+
+.wrk:hover{
+    color: crimson;
+}
+
+
+.inf{
+    color:black;
+}
+
+.inf:hover{
+    color: crimson;
+}
+
+
+button{
+    background-color:darkslateblue;
+    color: white;
+}
+
+button:hover{
+    color: blue;
+    background-color: antiquewhite;
+}
+
+button:active{
+    background-color: bisque;
+    color: cadetblue;
+}
