@@ -5,7 +5,7 @@ body{background-color: blanchedalmond;}
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    background-image: url('me.png');
+    background-image: url('./photos/me.png');
     background-size: cover;
     background-position: center;
     margin: auto;
@@ -23,7 +23,7 @@ body{background-color: blanchedalmond;}
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    background-image: url('break.jpg');
+    background-image: url('./photos/break.jpg');
     background-size: cover;
     background-position: center;
     margin-top: 50px;
@@ -40,6 +40,3 @@ body{background-color: blanchedalmond;}
     margin-top: -130px;
 }
 
-.whole{
-
-}

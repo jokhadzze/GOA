@@ -4,10 +4,6 @@
     box-sizing: border-box;
 }
 
-body {
-    /* background-color: rgb(229, 229, 229); */
-}
-
 .parent{
     display: flex;
     align-items: center;
@@ -18,7 +14,7 @@ body {
     height: 1670px;
     width: 1600px;
 
-    background-image: url(weebsite.png);
+    background-image: url(./photos/weebsite.png);
     background-size: cover;
     background-position: center;
 }
