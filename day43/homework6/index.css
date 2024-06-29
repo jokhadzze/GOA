@@ -2,6 +2,12 @@ body{
     background-color:ivory;
 }
 
+.parent{
+    display: flex;
+    flex-direction: row;
+    
+}
+
 .conteiner1{
     width: 800px;
     height: 800px;
@@ -216,5 +222,18 @@ body{
 .ban-txt p{
     font-size: 20px;
     margin: 0;
+}
+
+
+.conteiner2{
+    height: 800px;
+    width: 800px;
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+
 }
 
