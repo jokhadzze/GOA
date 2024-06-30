@@ -237,3 +237,14 @@ body{
 
 }
 
+.nav a{
+    color: cornflowerblue;
+}
+.nav a:hover{
+    color: rgb(68, 114, 198);
+}
+
+.nav a:active{
+    color: rgb(44, 80, 148);
+}
+

@@ -1,3 +1,24 @@
 body{
     background-color: ivory;
 }
+
+.mini-headings{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(61, 61, 177);
+}
+
+h1{
+    color: darkblue;
+}
+
+.nav a{
+    color: cornflowerblue;
+}
+.nav a:hover{
+    color: rgb(68, 114, 198);
+}
+
+.nav a:active{
+    color: rgb(44, 80, 148);
+}
