@@ -1,0 +1,156 @@
+body {
+    
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+    background-color: rgb(234, 234, 234);
+}
+
+/* Top Navbar */
+.navbar {
+    width: 1340px;
+    background-color: rgb(240, 240, 240);
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    
+}
+
+.navbar .title {
+    font-size: 24px;
+    font-weight: bold;
+    color:black
+}
+
+.navbar .search-bar {
+    display: flex;
+    align-items: center;
+    
+}
+
+.navbar .search-bar input {
+    padding: 8px;
+    border-radius: 4px;
+    border: none;
+    width: 600px;
+    margin-left: 20px;
+}
+
+.navbar .prof-img{
+    width: 90px;
+    height: 90px;
+    background-image: url(/day45/photos/me.png);
+    background-size: cover;
+    background-position: center;
+    border: none;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+.navbar .prof-text{
+    color: black;
+}
+
+.navbar .search-icon{
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+
+
+/* main content */
+.main-content {
+    display: grid;
+    grid-template-columns: 2fr 1fr; 
+    gap: 10px; 
+}
+
+
+/* image container */
+.proj-txt{
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.image-container{
+    margin-top: 30px;
+    
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.main-grid{
+    display: flex;
+    gap: 400px;
+}
+
+
+/* side notes */
+.side-notes {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.side-notes .side-txt {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 20px;
+
+}
+
+
+.side-notes .side-img img {
+    width: auto;
+    height: auto;
+    object-fit: cover;
+}
+
+
+
+
+/* Sidebar */
+.sidebar {
+    background-color:rgb(190, 190, 190);
+    width: 150px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.sidebar .icon {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    color:black;
+}
+
+.sidebar .icon img {
+    width: 24px;
+    height: 24px;
+}
+
+.sidebar .icon:hover {
+    color: blue;
+}
+
+.sidebar .text {
+    font-size: 16px;
+}
+
+
+.image-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 10px;
+    gap: 5px;
+}

@@ -67,7 +67,7 @@ body {
     font-size: 16px;
 }
 
-
+/* image grid */
 .image-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
