@@ -1,0 +1,80 @@
+body{
+    background-color: rgb(214, 225, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    height: 700px;
+    width: 400px;
+    background-color: white;
+    border-radius: 20px;
+    
+    
+}
+
+.img{
+    background-image: url(./photos/fotochka.png);
+    width: 400px;
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.text{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    flex-direction: column;
+}
+
+.fee{
+    width: 200px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(214, 225, 255);
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#change{
+    text-decoration: underline;
+    color: rgb(143, 106, 177);
+}
+
+#change:hover{
+    color: rgb(95, 59, 129);
+    cursor: pointer;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    gap: 10px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+#button1{
+    height: 40px;
+    background-color:rgb(223, 200, 245);
+    border-radius: 20px;
+    
+}
+
+#button1:hover{
+    background-color: rgb(204, 156, 250);
+    cursor: pointer;
+}
+
+#button2{
+    border: none;
+    background-color: white;
+}
+
