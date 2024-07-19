@@ -1,0 +1,178 @@
+body{
+    background-color: rgb(254, 253, 245);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.whole{
+    margin: auto;
+}
+
+.main-txt{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.heading{
+    font-size: 50px;
+    color: rgb(82, 31, 80);
+    font-weight: bolder;
+}
+
+.lower-txt{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: rgb(142, 131, 140);
+}
+
+.rating1{
+    height:30px;
+    width: 300px;
+    margin: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(252, 245, 249);
+    padding-top: 10px;
+    padding-left: 22px; 
+    color: rgb(82, 31, 80);
+    font-weight: bold;
+}
+
+.rating2{
+    height:30px;
+    width: 300px;
+    margin: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(252, 245, 249);
+    padding-top: 10px;
+    padding-left: 22px;
+    color: rgb(82, 31, 80);
+    font-weight: bold;
+    margin-left: 60px;
+}
+
+.rating3{
+    height:30px;
+    width: 300px;
+    margin: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(252, 245, 249);
+    padding-top: 10px;
+    padding-left: 22px;
+    color: rgb(82, 31, 80);
+    font-weight: bold;
+    margin-left: 120px;
+}
+
+.colton{
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(81, 31, 80);
+    width: 150px;
+    height: 230px;
+    padding: 30px 100px;
+}
+
+.irene{
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(81, 31, 80);
+    width: 150px;
+    height: 230px;
+    padding: 30px 100px;
+    margin-top: 25px;
+}
+
+.anne{
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(81, 31, 80);
+    width: 150px;
+    height: 230px;
+    padding: 30px 100px;
+    margin-top: 50px;
+}
+
+.col-img{
+    height: 40px;
+    width: 40px;
+    background-image: url(./images/image-colton.jpg);
+    background-size: cover;
+    background-position: center;
+    border: none;
+    border-radius: 50%;
+}
+
+.irene-img{
+    height: 40px;
+    width: 40px;
+    background-image: url(./images/image-irene.jpg);
+    background-size: cover;
+    background-position: center;
+    border: none;
+    border-radius: 50%;
+}
+
+.anne-img{
+    height: 40px;
+    width: 40px;
+    background-image: url(./images/image-anne.jpg);
+    background-size: cover;
+    background-position: center;
+    border: none;
+    border-radius: 50%;
+}
+
+
+.img-txt{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.name-txt{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.names{
+    font-weight: bolder;
+    font-size: 14px;
+}
+    
+
+
+.lower-name-txt{
+    color: rgb(174, 94, 151);
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.intro{
+    margin-top: 10px;
+    color: white;
+}
+
+.people{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.top-conteiner{
+    display: flex;
+    flex-direction: row;
+    gap: 330px;
+}
+
+
+
+
+
+
