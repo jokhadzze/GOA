@@ -1,0 +1,78 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+    flex-direction: column;
+}
+
+.mix{
+    display: flex;
+    height: 900px;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+.blueish{
+    max-width: 500px;
+    height: 500px;
+    background-color: rgb(81, 43, 255);
+    box-shadow: 0px 0px 75px rgb(81, 43, 255);
+    border-radius: 50%;
+    animation-name: blueish;
+    animation-duration: 3s;
+    opacity: 50%;
+    animation-iteration-count: infinite;
+}
+.pinkish{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(189, 19, 240);
+    box-shadow: 0px 0px 75px rgb(189, 19, 240);
+    border-radius: 75%;
+    animation-name: pinkish;
+    animation-duration: 3s;
+    opacity: 50%;
+    animation-iteration-count: infinite;
+}
+@keyframes pinkish{
+    0%{
+        width: 500px;
+        height: 500px;
+        background-color: rgb(189, 19, 240);
+        border-radius: 50%;
+    }
+    25%{
+        transform:scale(1.2)  translateX(-80%);
+    }
+    75%{
+        transform: scale(0.25);
+        opacity: 50%;
+    }
+    100%{
+        width: 500px;
+        height: 500px;
+        border-radius: 50%;
+    }
+}
+@keyframes blueish{
+    0%{
+        width: 500px;
+        height: 500px;
+        background-color: rgb(81, 43, 255);
+        border-radius: 50%;
+    }
+    25%{
+        transform:scale(1.2) translateX(80%);
+    }
+    75%{
+        transform: scale(0.25);
+        opacity: 50%;
+    }
+    100%{
+        width: 500px;
+        height: 500px;
+        border-radius: 50%;
+    }
+}
