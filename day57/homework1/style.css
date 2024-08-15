@@ -1,0 +1,21 @@
+body{
+    background-color: black;
+}
+
+#txt{
+    font-size: 500px;
+    margin-top: 0;
+}
+
+button{
+    width: 200px;
+    height: 100px;
+    color: white;
+    background-color: cornflowerblue;
+    border: none;
+    box-shadow: 0 0 60px cornflowerblue;
+    border-radius: 50px;
+    margin: 20px;
+    cursor: pointer;
+}
+
