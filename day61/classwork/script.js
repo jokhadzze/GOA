@@ -35,3 +35,32 @@ const country = {
 // ახალ მნიშვმნელობას
 
 // წაშლას რაც ეხება, ვიყენებთ დოტ ნოტაციას: delete key word --> obj name --> dot --> property name
+
+
+
+
+
+function Car (name, releaseDate) {
+
+        this.name = name
+        this.releaseDate = releaseDate
+
+
+        this.printInfo = function () {
+            console.log(this.name, this.releaseDate)
+        }
+
+    }
+
+  
+  
+  const car1 = new Car("BMW", 1928);
+  const car2 = new Car("Mustang", 1964);
+  const car3 = new Car("audi", 1910)
+  
+  
+  car2.printInfo()
+
+//   კონსტრუქტორი არეს ფუნქცია, რომელსაც აკისრია იბიექტისშექმნა
+
+// new ქმნის ახალ ცარიელ ობიექტს, რომელსაც გადაცემს კონსტრუქტორს --> კონსტრუქტორი ამ ცარიელი ობიექტს კუთვნილებებს ანიჭებს
