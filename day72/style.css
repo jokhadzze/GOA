@@ -1,0 +1,51 @@
+body {
+    background-color:papayawhip;
+}
+
+h2 {
+    color: navy;
+    font-family: sans-serif;
+}
+
+h3 {
+    color: rgb(45, 45, 206);
+    font-family: sans-serif;
+}
+
+p {
+    color: rgb(66, 97, 233);
+    font-size: medium;
+    font-weight: 550;
+    font-family: sans-serif;
+}
+
+button {
+    height: 30px;
+    width: 130px;
+    background-color: rgb(43, 47, 146);
+    color: rgb(214, 214, 214);
+    box-shadow: 0 0 20px navy;
+    border-radius: 10px;
+    font-family: sans-serif;
+    font-weight: 550;
+    
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.img-divs{
+    height: auto;
+    width: 625px;
+    margin-top: 20px;
+    overflow-x: hidden;
+    visibility: hidden;
+    position: absolute;
+}
+
+
+
+
+
+
