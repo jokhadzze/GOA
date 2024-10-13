@@ -84,8 +84,10 @@ Array.from(btns).forEach((btn, i)=>{
     if(div.style.visibility != 'visible'){
       div.style.visibility = 'visible'
       div.style.position = 'relative'
+      btn.textContent = 'hide example'
     }
     else{
+      btn.textContent = 'show example'
       div.style.visibility = 'hidden'
       div.style.position = 'absolute'
     }
