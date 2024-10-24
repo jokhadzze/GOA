@@ -9,7 +9,7 @@ class person {
     }
 
     concatenate(){
-        return this.gender + ' ' + this.age + 'years old'
+        return this.gender + ' ' + this.age + ' years old'
     }
 }
 
@@ -71,3 +71,5 @@ class calculator{
         return a+b
     }
 }
+
+
