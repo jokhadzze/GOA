@@ -1,0 +1,33 @@
+nav{
+    text-align: center;
+}
+
+nav a{
+
+    color: rgb(100, 99, 99);
+    font-weight: bold;
+    text-decoration: none;
+    margin: 10px;
+    position: relative;
+    top: 20px;
+}
+
+a:after{
+    content:"";
+    position: absolute;
+    background-color: black;
+    width: 0;
+    height: 3px;
+    left: 0;
+    bottom: -10px;
+    transition: 0.4s;
+}
+
+
+a:hover{
+    color: black
+}
+
+a:hover:after{
+    width: 100%;
+}
