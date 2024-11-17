@@ -7,7 +7,8 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: white;
+    background-color:rgb(255, 240, 219);
+    overflow: hidden;
 }
 
 nav{
@@ -67,26 +68,26 @@ main{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 40px;
+    gap: 120px;
 }
 
 .second-sec{
     display: flex;
     flex-direction: row; 
     justify-content: center;
-    gap: 40px;
+    gap: 120px;
 }
 
 .meals{
     display:flex;
-    width: 260px;
+    width: 350px;
     height: 240px;
     align-items: center;
     transition: 500ms;
 }
 
 img{
-    width: 260px;
+    width: 350px;
     height: 240px;
     object-fit: cover;
     border-radius: 10px;
@@ -104,13 +105,17 @@ h1, p{
 
 h1{
     font-size: 45px;
+    color: rgb(84, 50, 50);
+    text-shadow: 2px 2px 2px rgb(103, 77, 63);
+    
 }
 
-p{
+.main-text{
     font-size: 20px;
     margin-bottom: 5px;
     margin-top: -10px;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
+    color:rgb(117, 96, 70);
 }
 
 .meals p{
@@ -119,9 +124,9 @@ p{
     width: 100%;
     text-align: center;
     position: sticky;
-    background-color: white ;
+    background-color:rgb(255, 240, 219);
     font-size: 27px;
-    color: rgb(151, 96, 59);
+    color: rgb(100, 78, 78);
     font-weight: bolder;
     text-shadow: 2px 2px 2px rgb(69, 41, 25);
 }
